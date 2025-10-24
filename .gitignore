@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec
+
+# ---- Environments ----
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# ---- IDE & OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter / Logs ----
+*.ipynb_checkpoints
+*.log
+
+# ---- Data / Temp ----
+heart.csv
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+
+# ---- Model files ----
+# (Keep this commented if you want to push your trained model)
+# model/heart_model.joblib
+
+# ---- Docker ----
+*.pid
+*.bak
+
+# ---- __Local cache__ ----
+.cache/
+.pytest_cache/
+.mypy_cache/
